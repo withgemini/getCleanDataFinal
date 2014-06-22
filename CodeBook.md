@@ -9,6 +9,7 @@ The following transformations of files in both Train and Test directories were p
 7. The columns with mean and standard deviation for each variable were identified and a subset of allData was created as subsetMeanStr dataset
 
 To create tidyData.txt the allData dataset from previous transformations was used
+
 1. The columns with only means for each variable were identified and a subset of allData was created
 2. Using melt function from reshape2 package the tidyMelt was created
 3. Using dcast function, the data were organized in a more cohesive manner  with the average of each variable for each activity and each subject
