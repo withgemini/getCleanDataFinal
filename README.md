@@ -17,7 +17,7 @@ run_analysis.R file performed the following steps per assignment instructions:
 6. The trainData and testData were merged into allData dataset
 7. The columns with mean and standard deviation for each variable were identified and a subset of allData was created as subsetMeanStr dataset
 
-To create tidyData.txt the allData dataset from previous transformations was used and the following transformations were performed:
+To create tidyData.txt the allData dataset from previous transformations was used and the following steps were performed:
 
 1. The columns with only means for each variable were identified and a subset of allData was created
 2. Using melt function from reshape2 package the tidyMelt was created
