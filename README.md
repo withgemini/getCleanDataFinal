@@ -3,9 +3,11 @@ getCleanDataFinal
 
 This is the final project for the Coursera Course "Getting and Cleaning Data"
 
+The run_analysis.R should be in the same directory as the files downloaded from
 
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-The following transformations of files in both Train and Test directories were performed in run_analysis.R in order to get tidyData.txt:
+run_analysis.R file performed the following steps per assignment instructions:
 
 1. The X_train.txt and X_test.txt were loaded into R as trainData and testData respectively
 2. features.txt was loaded into R and then used as the header for both resulting datasets
@@ -15,7 +17,7 @@ The following transformations of files in both Train and Test directories were p
 6. The trainData and testData were merged into allData dataset
 7. The columns with mean and standard deviation for each variable were identified and a subset of allData was created as subsetMeanStr dataset
 
-To create tidyData.txt the allData dataset from previous transformations was used
+To create tidyData.txt the allData dataset from previous transformations was used and the following transformations were performed:
 
 1. The columns with only means for each variable were identified and a subset of allData was created
 2. Using melt function from reshape2 package the tidyMelt was created
