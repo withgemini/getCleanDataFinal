@@ -3,7 +3,7 @@ getCleanDataFinal
 
 This is the final project for the Coursera Course "Getting and Cleaning Data"
 
-The run_analysis.R should be in the same directory as the files downloaded from
+In order to be able to run run_analysis.R, this file should be in the same directory as unzipped files, downloaded from
 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
