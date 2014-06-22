@@ -126,6 +126,7 @@ tBodyGyroJerkMean
 
 The complete list of variables of each feature vector is available in 'features.txt'
 
+# Data Transformations #
 The following transformations of files in both Train and Test directories were performed in run_analysis.R in order to get tidyData.txt:
 
 1. The X_train.txt and X_test.txt were loaded into R as trainData and testData respectively
