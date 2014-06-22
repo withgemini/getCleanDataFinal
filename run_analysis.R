@@ -39,7 +39,6 @@ names(subsetMeanStr)
 tidynumCol <- c(1:3, 41:43, 81:83, 121:123, 161:163, 201, 214, 227, 240, 253, 266:268, 345:347, 424:426, 503, 516, 529, 542)
 tidynumColShifted <-c(2,tidynumCol + 2, 564)
 tidyRaw <- subset(allData, select=tidynumColShifted)
-typeof(tidyRaw$"tBodyAcc-mean()-X")
 tidyCol <- names(tidyRaw)
 tidyVar <- tidyCol[-c(1,35)]
 
